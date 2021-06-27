@@ -1,5 +1,6 @@
 :root {
   --primary-color: #00a4e3;
+  --color2:#303030;
 
   }
   
@@ -41,12 +42,71 @@ a{
     text-decoration: none;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .header{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   background-color: var(--primary-color);
 }
+.hours-box{
+  margin-left: -100px;
+
+}
+.hours-p{
+  font-size: 18px;
+  margin-left: -50px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.hours-p2{
+  font-size: 18px;
+  margin-left: -20px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.tel-p{
+  font-size: 17px;
+  margin-left: 100px;
+  margin-right: 300px;
+  color: #fff;
+}
+
+.header-logo{
+  margin-left: 200px;
+}
+
+.nav-bar{
+  justify-content: space-between;
+  background-color:  var(--color2);
+}
+
+.nav-box{
+  margin-right: 250px;
+}
+
+.nav-item{
+  font-size: 20px;
+  margin-right: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero{
+  width: 100vw;
+  height: 900px;
+  margin-bottom: 100px;
+  background-image: url(Hero\ Photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 .card:hover{
   
     position: relative;
