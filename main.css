@@ -2,6 +2,7 @@
   --primary-color: hsl(197, 100%, 45%);
   --color2:#303030;
   --color-3:#c41130;
+  font-family: 'Nunito Sans', sans-serif;
 
   }
   
@@ -59,19 +60,19 @@ ul{
   background-color: var(--primary-color);
 }
 .hours-box{
-  margin-left: -100px;
+  margin-left: -95px;
 
 }
 .hours-p{
   font-size: 18px;
-  margin-left: -50px;
+  margin-left: 20px;
   margin-right: 50px;
   color: #fff;
 }
 
 .hours-p2{
   font-size: 18px;
-  margin-left: -20px;
+  margin-left: -23px;
   margin-right: 50px;
   color: #fff;
 }
@@ -97,7 +98,7 @@ ul{
 }
 
 .nav-item{
-  font-size: 20px;
+  font-size: 21px;
   margin-right: 50px;
   color: #fff;
   text-transform: uppercase;
@@ -200,11 +201,124 @@ ul{
   margin-right: 200px;
 }
 
+.hero-logo-m{
+  display: none;
+}
 
+.cards-section-m{
+  display: none;
+}
+
+.topnav{
+  display: none;
+}
+.header-m{
+  display: none;
+}
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero{
     height: 730px;
   }
+  
 }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .header{
+      display: none;
+    }
+    .topnav{
+      display: block;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav #myLinks {
+      display: none;
+    }
+
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 83px;
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .active {
+      background-color:var(--color2);
+      color: white;
+    }
+
+    .header-m{
+      display: block;
+      background-color: var(--primary-color);
+      height: auto;
+      align-items: center;
+    }
+    
+    .tel-p{
+      font-size: 12px;
+      padding-top: 20px;
+      margin-left: 140px;
+      margin-right: 0;
+      margin-top: auto;
+
+    }
+
+    .hours-p{
+      
+    font-size: 12px;
+    margin-left: 70px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+
+    }
+    .hours-box{
+      flex-direction: column-reverse;
+    }
+    .nav-bar{
+      display: none;
+    }
+
+    .card-section{
+      display: none;
+    }
+    .hero{
+      background-image: url(Hero-M.png);
+      height: 200px;
+    }
+
+    .hero-h2{
+      font-size: 20px;
+    }
+
+    .hero-logo{
+      display: none;
+    }
+
+    .hero-logo-m{
+      display: block;
+    } 
+  
+    .cards-section-m{
+      display: block;
+      height: auto;
+      background-color: var(--color2);
+    }
+
+
+  }
 
 
