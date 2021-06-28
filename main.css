@@ -1,6 +1,6 @@
 :root {
   --primary-color: hsl(197, 100%, 45%);
-  --color2:#303030;
+  --color2:rgb(48, 48, 48);
   --color-3:#c41130;
   font-family: 'Nunito Sans', sans-serif;
 
@@ -215,6 +215,10 @@ ul{
 .header-m{
   display: none;
 }
+
+.about-img-m{
+  display: none;
+}
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero{
     height: 730px;
@@ -250,7 +254,7 @@ ul{
       position: absolute;
       right: 0;
       top: 0;
-      margin-top: 83px;
+      margin-top: 90px;
     }
     .topnav a:hover {
       background-color: #ddd;
@@ -269,19 +273,19 @@ ul{
     }
     
     .tel-p{
-      font-size: 12px;
+      font-size: 14px;
       padding-top: 20px;
-      margin-left: 140px;
+      margin-left: 105px;
       margin-right: 0;
       margin-top: auto;
 
     }
 
     .hours-p{
-      
-    font-size: 12px;
-    margin-left: 70px;
+    font-size: 13px;
+    margin-left: 33px;
     margin-bottom: 0;
+    margin-top: 0;
     padding-bottom: 15px;
 
     }
@@ -311,14 +315,86 @@ ul{
     .hero-logo-m{
       display: block;
     } 
-  
+    
+    
     .cards-section-m{
+      padding-top: 50px;
+      padding-bottom: 50px;
       display: block;
       height: auto;
       background-color: var(--color2);
     }
 
+    .card{
+     opacity: .8;
+      height: 120px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px;
+      
+    }
+    .card-1{
+      background-image: url(locations-m.png);
+      background-size: contain;
+    }
 
+
+  .card-2{
+    background-image: url(service-m.png);
+    background-size: contain;
+  }
+
+  .card-3{
+    background-image: url(specials-m.png);
+    background-size: contain;
+  }
+
+    .about-section{
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    .about-img{
+      display: none;
+    }
+
+    .about-img-m{
+      margin-top: 50px;
+      display: block;
+    }
+    
+    .about-h2{
+      margin-top: 0;
+      font-size: 20px;
+      margin-left: -85px;
+
+    }
+
+    .about-p1{
+      max-width: 300px;
+      
+    }
+
+    .footer{
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+    }
+
+    .footer-img{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .about-p2{
+      max-width: 200px;
+      margin-left: -100px;
+    }
+
+    .about-btn{
+      margin-right: 120px;
+    }
   }
 
 

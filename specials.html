@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="hamburger.js"></script>
 </head>
 <body>
     <div class="header">
@@ -20,7 +21,52 @@
         </div>
         
     </div>
+
+  
+
+<!-- Mobile Header--> 
+<div class="header-m container">
+    <p class="tel-p">Phone: 360-551-6703</p>
+    <p class="hours-p"> Mon- Fri 00:00 - 00:00  Sun- Sat 00:00 - 00:00</p>
+
+</div>
+
+<!-- Desktop Nav Menu -->
+<div>
+    <nav class="row container nav-bar">
+        <a href="index.html"><img src="header-logo.png" class="header-logo"></a>
+        <ul class="row nav-box">
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="specials.html">Specials</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="locations.html">Locations</a></li>
+        </ul>
+    </nav>
+    </div>
+
+<!--  Mobile Nav-->
+
+<div class="topnav container row">
+        <div>
+         <a href="index.html" class="active"><img src="header-logo-m.png"></a>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+        </div>
+    
+        <div id="myLinks">
+            <a href="services.html">Services</a>
+            <a href="specials.html">Specials</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="locations.html">Locations</a>
+        </div>
+
  
+  </a>
+</div>
+
     <div>
     <nav class="row container nav-bar">
         <a href="index.html"><img src="header-logo.png" class="header-logo"></a>
