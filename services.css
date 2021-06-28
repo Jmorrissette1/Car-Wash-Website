@@ -1,76 +1,73 @@
 @import url(main.css);
 
-ul{
-    padding-left: 0;
+ul {
+  padding-left: 0;
 }
-.services-h2{
-    font-size: 50px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-
-.services-card-section{
-    background-color: lightggrey;
-    
+.services-h2 {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-.services-card{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-right: 50px;
-    margin-left: 50px;
-    text-align: center;
-    justify-content: center;
-  
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    box-shadow: 5px 5px 5px 2px grey;
-    
+.services-card-section {
+  background-color: #f0f0f0;
 }
 
-.services-card-h1{
-    background-color: var(--color-3);
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 0;
+.services-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+  justify-content: center;
+
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: 5px 5px 5px 2px grey;
 }
 
-.services-card-h2{
-    background-color: var(--color2);
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 0;
+.services-card-h1 {
+  background-color: var(--color-3);
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
-.service-list-item{
-    font-size: 20px;
-    font-weight: bold;
+.services-card-h2 {
+  background-color: var(--color2);
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
-.price-p1{
-    font-size: 38px;
-    font-weight: bold;  
-    color: var(--color-3);
+.service-list-item {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.price-p2{
-    padding-top: 85px;
-    font-size: 38px;
-    font-weight: bold;  
-    color: var(--color2);
+.price-p1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--color-3);
 }
 
-.price-p3{
-    padding-top: 185px;
-    font-size: 38px;
-    font-weight: bold;  
-    color: var(--color2);
+.price-p2 {
+  padding-top: 85px;
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--color2);
+}
+
+.price-p3 {
+  padding-top: 185px;
+  font-size: 38px;
+  font-weight: bold;
+  color: var(--color2);
 }
