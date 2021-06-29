@@ -71,3 +71,18 @@ ul {
   font-weight: bold;
   color: var(--color2);
 }
+
+.other-services-section {
+  width: 100vw;
+}
+.other-h2 {
+  text-transform: uppercase;
+}
+
+.other-box-1 {
+  background-color: var(--color-3);
+  width: 1200px;
+}
+
+.other-text-box-1 {
+}
