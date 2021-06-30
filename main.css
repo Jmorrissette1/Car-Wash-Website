@@ -1,8 +1,11 @@
 @import url(services.css);
+@import url(specials.css);
 
 :root {
   --primary-color: hsl(197, 100%, 45%);
   --color2: rgb(48, 48, 48);
+  --color4: #cfcfcf;
+  --color5: #e6e6e6;
   --color-3: #c41130;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -121,12 +124,6 @@ ul {
   height: 500px;
 }
 
-.card-img:hover {
-  color: blue;
-  position: relative;
-  z-index: 0;
-}
-
 .card {
   margin-right: 25px;
   margin-left: 25px;
@@ -135,7 +132,7 @@ ul {
 }
 
 .about-section {
-  background-color: #f0f0f0;
+  background-color: var(--corlor4);
   height: 500px;
   align-items: center;
 }

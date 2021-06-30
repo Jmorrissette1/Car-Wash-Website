@@ -10,10 +10,11 @@ ul {
 }
 
 .services-card-section {
-  background-color: #f0f0f0;
+  background-color: var(--color4);
 }
 
 .services-card {
+  background-color: var(--color5);
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
