@@ -16,10 +16,14 @@
   width: 400px;
   border: 1px solid;
   background-color: var(--color5);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .specials-section {
   background-color: var(--color4);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .specials-p1 {
