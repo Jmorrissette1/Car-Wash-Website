@@ -1,0 +1,72 @@
+.locations-hero {
+  width: 100vw;
+  height: 800px;
+  background-image: url(Locations-Hero-D.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-h2 {
+  font-size: 68px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.locations-card-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--color5);
+}
+
+.locations-card-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-img {
+  margin-top: 20px;
+  max-width: 365px;
+  border-radius: 10px;
+}
+
+.location-card {
+  width: 400px;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 8px 5px lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .locations-hero {
+    width: 100vw;
+    height: 150px;
+    background-image: url(Locations-Hero-M.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .location-h2 {
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .locations-card-box {
+    flex-direction: column;
+  }
+
+  .locations-card-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .location-card {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+
+  .location-img {
+    max-width: 260px;
+  }
+}

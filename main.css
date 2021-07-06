@@ -1,5 +1,6 @@
 @import url(services.css);
 @import url(specials.css);
+@import url(locations.css);
 
 :root {
   --primary-color: hsl(197, 100%, 45%);
