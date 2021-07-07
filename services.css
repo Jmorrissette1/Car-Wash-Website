@@ -142,7 +142,28 @@ ul {
   }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1024px) {
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  .services-card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .services-card-h1 {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+  .services-card-h2 {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+
+  .other-h2 {
+    font-size: 28px;
+    margin-left: 0px;
+  }
+
+  .other-p2 {
+    margin-left: -75px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
