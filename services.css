@@ -1,7 +1,14 @@
-@import url(main.css);
-
 ul {
   padding-left: 0;
+}
+
+.service-hero {
+  width: 100vw;
+  height: 430px;
+  background-image: url(Service-Hero-D.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .services-h2 {
   font-size: 68px;

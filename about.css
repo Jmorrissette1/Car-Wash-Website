@@ -1,7 +1,8 @@
 .about-hero {
   width: 100vw;
   height: 430px;
-  background-image: url(AboutUs-hero-D.png);
+  background-image: url(About-Hero-D.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,7 +17,8 @@
   box-shadow: 0px 6px 8px 5px lightgray;
 }
 .about-us-h2 {
-  font-size: 58px;
+  font: bold;
+  font-size: 68px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -39,14 +41,17 @@
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
   .about-hero {
     height: 325px;
-    background-size: contain;
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1270px) {
+@media only screen and (min-width: 1100px) and (max-width: 1270px) {
   .about-hero {
     height: 325px;
     background-size: contain;
+  }
+  .about-section {
+    margin-top: 150px;
+    margin-bottom: 200px;
   }
 }
 

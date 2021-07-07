@@ -1,7 +1,8 @@
 .locations-hero {
   width: 100vw;
-  height: 600px;
+  height: 430px;
   background-image: url(Locations-Hero-D.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -40,6 +41,13 @@
 .locations-p1 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .locations-hero {
+    height: 322px;
+    background-size: cover;
+  }
 }
 
 @media only screen and (max-width: 600px) {

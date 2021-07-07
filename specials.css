@@ -1,7 +1,8 @@
 .specials-hero {
   width: 100vw;
-  height: 600px;
+  height: 430px;
   background-image: url(Specials-Hero-D.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
