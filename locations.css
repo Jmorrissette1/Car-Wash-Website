@@ -1,6 +1,6 @@
 .locations-hero {
   width: 100vw;
-  height: 800px;
+  height: 600px;
   background-image: url(Locations-Hero-D.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,8 +12,8 @@
   text-transform: uppercase;
 }
 .locations-card-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: var(--color5);
 }
 
@@ -24,17 +24,22 @@
 
 .location-img {
   margin-top: 20px;
-  max-width: 365px;
+  max-width: 465px;
   border-radius: 10px;
 }
 
 .location-card {
-  width: 400px;
+  width: 500px;
   align-items: center;
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 10px;
   box-shadow: 0px 6px 8px 5px lightgray;
+}
+
+.locations-p1 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -64,6 +69,8 @@
   .location-card {
     width: 300px;
     margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .location-img {

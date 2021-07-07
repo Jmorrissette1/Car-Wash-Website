@@ -1,6 +1,7 @@
 @import url(services.css);
 @import url(specials.css);
 @import url(locations.css);
+@import url(about.css);
 
 :root {
   --primary-color: hsl(197, 100%, 45%);
@@ -209,9 +210,34 @@ ul {
 .about-img-m {
   display: none;
 }
+.feelgood-p {
+  color: var(--color-3);
+}
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero {
     height: 730px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .nav-box {
+    margin-right: 100px;
+  }
+
+  .header-logo {
+    margin-left: 130px;
+  }
+
+  .tel-p {
+    margin-right: 145px;
+    font-size: 16px;
+  }
+
+  .hours-p {
+    font-size: 16px;
+  }
+  .hours-p2 {
+    font-size: 16px;
   }
 }
 
@@ -262,14 +288,14 @@ ul {
   .tel-p {
     font-size: 14px;
     padding-top: 20px;
-    margin-left: 105px;
+    margin-left: 130px;
     margin-right: 0;
     margin-top: auto;
   }
 
   .hours-p {
     font-size: 13px;
-    margin-left: 45px;
+    margin-left: 65px;
     margin-bottom: 0;
     margin-top: 0;
     padding-bottom: 15px;
@@ -335,6 +361,8 @@ ul {
     flex-direction: column;
     height: auto;
     padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .about-img {

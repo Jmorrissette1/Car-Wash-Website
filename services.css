@@ -132,9 +132,17 @@ ul {
 
   .services-card {
     width: 340px;
-    height: 580px;
+    height: 650px;
   }
 
+  .services-card-h1 {
+    font-size: 38px;
+    margin-top: -50px;
+  }
+  .services-card-h2 {
+    font-size: 38px;
+    margin-top: -50px;
+  }
   .other-text-box-1 {
     margin-left: -80px;
     padding-top: 30px;
