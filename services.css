@@ -54,7 +54,14 @@ ul {
   text-transform: uppercase;
   margin-top: 0;
 }
-
+.services-card-h3 {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+}
 .service-list-item {
   font-size: 20px;
   font-weight: bold;
@@ -155,7 +162,10 @@ ul {
     font-size: 40px;
     margin-top: -20px;
   }
-
+  .services-card-h3 {
+    font-size: 40px;
+    margin-top: -20px;
+  }
   .other-h2 {
     font-size: 28px;
     margin-left: 0px;
