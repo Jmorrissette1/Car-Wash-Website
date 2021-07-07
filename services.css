@@ -221,3 +221,9 @@ ul {
     margin-left: -50px;
   }
 }
+
+@media only screen and (max-width: 376px) {
+  .other-p2 {
+    margin-left: -10px;
+  }
+}
