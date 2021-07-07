@@ -198,6 +198,10 @@ ul {
     font-size: 38px;
     margin-top: -50px;
   }
+  .services-card-h3 {
+    font-size: 38px;
+    margin-top: -50px;
+  }
   .other-text-box-1 {
     margin-left: -80px;
     padding-top: 30px;
@@ -235,5 +239,17 @@ ul {
 @media only screen and (max-width: 376px) {
   .other-p2 {
     margin-left: -10px;
+  }
+
+  .services-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .other-h1 {
+    margin-left: 40px;
+  }
+  .other-p1 {
+    margin-left: 40px;
   }
 }
