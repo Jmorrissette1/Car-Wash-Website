@@ -177,6 +177,10 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+  .service-hero {
+    height: 186px;
+    background-image: url(Services-Hero-T.png);
+  }
   .services-card-section {
     flex-direction: column !important;
   }
@@ -188,6 +192,9 @@ ul {
   .services-card {
     width: 340px;
     height: 650px;
+  }
+  .services-h2 {
+    font-size: 42px;
   }
 
   .services-card-h1 {
