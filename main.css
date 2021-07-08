@@ -64,7 +64,7 @@ ul {
   background-color: var(--primary-color);
 }
 .hours-box {
-  margin-left: -95px;
+  margin-right: 255px;
 }
 .hours-p {
   font-size: 18px;
@@ -77,13 +77,6 @@ ul {
   font-size: 18px;
   margin-left: -23px;
   margin-right: 50px;
-  color: #fff;
-}
-
-.tel-p {
-  font-size: 17px;
-  margin-left: 62px;
-  margin-right: 300px;
   color: #fff;
 }
 
@@ -242,6 +235,9 @@ ul {
     font-size: 16px;
   }
 
+  .hours-box {
+    margin-right: 100px;
+  }
   .hero {
     height: 520px;
   }
@@ -254,6 +250,10 @@ ul {
   .about-section {
     margin-top: 100px;
     margin-bottom: 75px;
+  }
+
+  .about-p1 {
+    max-width: 660px;
   }
 }
 
@@ -345,7 +345,7 @@ ul {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 80px;
+    margin-top: 40px;
     font-size: 34px;
   }
   .topnav a:hover {
@@ -372,8 +372,9 @@ ul {
   }
 
   .hours-p {
+    padding-top: 10px;
     font-size: 13px;
-    margin-left: 65px;
+    margin-left: 120px;
     margin-bottom: 0;
     margin-top: 0;
     padding-bottom: 15px;
@@ -482,11 +483,16 @@ ul {
   .about-btn {
     margin-right: 120px;
   }
+
+  .adress-p {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
   .hours-p {
-    margin-left: 50px;
+    padding-top: 10px;
+    margin-left: 100px;
   }
 
   .tel-p {
