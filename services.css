@@ -43,7 +43,7 @@ ul {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: -25px;
 }
 
 .services-card-h2 {
@@ -52,7 +52,7 @@ ul {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: -25px;
 }
 .services-card-h3 {
   background-color: var(--primary-color);
@@ -60,7 +60,7 @@ ul {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: -25px;
 }
 .service-list-item {
   font-size: 20px;
@@ -133,6 +133,22 @@ ul {
     background-color: var(--color-3);
     max-width: 960px;
   }
+  .other-h2 {
+    margin-left: -100px;
+  }
+  .other-p2 {
+    margin-left: -250px;
+  }
+
+  .services-card-h1 {
+    margin-top: -30px;
+  }
+  .services-card-h2 {
+    margin-top: -30px;
+  }
+  .services-card-h3 {
+    margin-top: -30px;
+  }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
@@ -147,24 +163,38 @@ ul {
   .other-p2 {
     margin-left: -150px;
   }
+
+  .services-card-h1 {
+    font-size: 36px;
+    margin-top: -55px;
+  }
+  .services-card-h2 {
+    font-size: 36px;
+    margin-top: -55px;
+  }
+  .services-card-h3 {
+    font-size: 36px;
+    margin-top: -55px;
+  }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
   .services-card {
     margin-right: 10px;
     margin-left: 10px;
+    height: 500px;
   }
   .services-card-h1 {
-    font-size: 40px;
-    margin-top: -20px;
+    font-size: 32px;
+    margin-top: 0;
   }
   .services-card-h2 {
-    font-size: 40px;
-    margin-top: -20px;
+    font-size: 32px;
+    margin-top: 0px;
   }
   .services-card-h3 {
-    font-size: 40px;
-    margin-top: -20px;
+    font-size: 32px;
+    margin-top: 0px;
   }
   .other-h2 {
     font-size: 28px;
@@ -173,6 +203,17 @@ ul {
 
   .other-p2 {
     margin-left: -75px;
+  }
+  .price-p1 {
+    padding-bottom: 10px;
+  }
+  .price-p2 {
+    padding-top: 80px;
+
+    padding-bottom: 10px;
+  }
+  .price-p3 {
+    padding-bottom: 10px;
   }
 }
 
