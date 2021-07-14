@@ -217,6 +217,31 @@ ul {
   }
 }
 
+@media only screen and (min-width: 601px) and (max-width: 770px) {
+  .services-card-section {
+    flex-direction: column !important;
+  }
+
+  .other-services-section {
+    flex-direction: column !important;
+  }
+
+  .other-h1 {
+    margin-top: 10px;
+  }
+
+  .other-box-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .other-h2 {
+    margin-left: 0px;
+  }
+  .other-p2 {
+    margin-left: -150px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .service-hero {
     height: 186px;

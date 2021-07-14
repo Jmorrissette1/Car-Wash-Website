@@ -73,9 +73,11 @@
   color: var(--color-3);
 }
 
-@media only screen and(min-width) {
+@media only screen and (min-width: 601px) and (max-width: 770px) {
+  .specials-text-box-1 {
+    margin-bottom: 50px;
+  }
 }
-
 @media only screen and (max-width: 600px) {
   .specials-hero {
     width: 100vw;
