@@ -43,6 +43,10 @@
   margin-bottom: 0;
 }
 
+.locations-p2 {
+  text-transform: uppercase;
+}
+
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
   .locations-hero {
     height: 322px;
