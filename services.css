@@ -128,6 +128,7 @@ ul {
   margin-left: -400px;
   margin-bottom: 0;
 }
+
 @media only screen and (min-width: 1460px) and (max-width: 1924px) {
   .other-box-1 {
     background-color: var(--color-3);

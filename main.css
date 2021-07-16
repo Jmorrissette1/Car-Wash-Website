@@ -2,6 +2,7 @@
 @import url(specials.css);
 @import url(locations.css);
 @import url(about.css);
+@import url(memebership.css);
 
 :root {
   --primary-color: hsl(197, 100%, 45%);
@@ -68,6 +69,10 @@ ul {
   text-transform: uppercase;
   font-size: 18px;
   color: #fff;
+}
+
+.hours-p2 {
+  margin-left: 25px;
 }
 
 .header-logo {
@@ -201,6 +206,11 @@ ul {
 .feelgood-p {
   color: var(--color-3);
 }
+
+.memebership-container {
+  background-color: var(--color4);
+}
+
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero {
     height: 730px;
