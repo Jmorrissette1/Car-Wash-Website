@@ -10,3 +10,41 @@
   margin-top: 70px;
   font-size: 48px;
 }
+
+.info-bar {
+  background-color: var(--color-3);
+  height: 80px;
+}
+
+.membership-p1 {
+  max-width: 900px;
+  font-size: 20px;
+}
+
+.info-p1 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.info-a {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .klean-club-logo {
+    width: 300px;
+  }
+
+  .membership-h2 {
+    font-size: 30px;
+  }
+
+  .membership-p1 {
+    max-width: 330px;
+    font-size: 20px;
+  }
+  .info-p1 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
