@@ -24,13 +24,15 @@
 }
 
 .location-img {
-  margin-top: 20px;
-  max-width: 465px;
+  margin-top: 2em;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 10px;
 }
 
 .location-card {
-  width: 500px;
+  width: 1400px;
+  margin-bottom: 1rem;
   align-items: center;
   margin-right: 50px;
   margin-left: 50px;
@@ -38,6 +40,15 @@
   box-shadow: 0px 6px 8px 5px lightgray;
 }
 
+.locations-text-box {
+  width: 400px;
+  margin-right: 3rem;
+  margin-left: 10rem;
+}
+
+.locations-img-box {
+  margin-left: 10rem;
+}
 .locations-p1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -45,6 +56,34 @@
 
 .locations-p2 {
   text-transform: uppercase;
+}
+.location-h3 {
+  font-size: 32px;
+}
+.map-box {
+  width: 300px;
+}
+#map {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: inherit;
+  width: 300px;
+  height: 300px;
+}
+#map1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: inherit;
+  width: 300px;
+  height: 300px;
+}
+
+#map2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: inherit;
+  width: 300px;
+  height: 300px;
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {

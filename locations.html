@@ -13,6 +13,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="hamburger.js"></script>
+    <script src="map.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGjOQYVyfeVtU2UV7aiWwEJGxza06WS8&callback=initMap">
+        </script>
+
 
 </head>
 
@@ -74,30 +79,53 @@
         <h2 class="location-h2">Locations</h2>
     </div>
     <div class="locations-card-section container">
-        <div class="locations-card-box">
-            <div class="location-card column">
+        <div class="locations-card-box column">
+            <div class="location-card row">
+                <div class="locations-text-box column">
+                    <h3 class="location-h3">Klean Freak Silverdale</h3>
+                    <p class="locations-p1">9550 Ridgetop Blvd</p>
+                    <p class="locations-p1">Silverdale 98383</p>
+                    <p class="locations-p2">open everyday 8am-8-pm</p>
+                </div>
+                <div class="locations-img-box row">
+                    <img src="silverdale-store.PNG" class="location-img">
+                    <div class="map-box" width="300">
+                        <div id="map"></div>
+                    </div>
+                </div>
 
-                <img src="silverdale-store.PNG" class="location-img">
-                <h3 class="location-h3">Klean Freak Silverdale</h3>
-                <p class="locations-p1">9550 Ridgetop Blvd</p>
-                <p class="locations-p1">Silverdale 98383</p>
-                <p class="locations-p2">open everyday 8am-8-pm</p>
 
             </div>
-            <div class="location-card column">
-
-                <img src="poulsbo-location-img.png" class="location-img">
-                <h3 class="location-h3">Klean Freak Poulsbo</h3>
-                <p class="locations-p1">21205 Olhava Way NW</p>
-                <p class="locations-p1">Poulsbo 98370</p>
-                <p class="locations-p2">open everyday 8am-8-pm</p>
+            <div class="location-card row">
+                <div class="locations-text-box column">
+                    <h3 class="location-h3">Klean Freak Poulsbo</h3>
+                    <p class="locations-p1">21205 Olhava Way NW</p>
+                    <p class="locations-p1">Poulsbo 98370</p>
+                    <p class="locations-p2">open everyday 8am-8-pm</p>
+                </div>
+                <div class="locations-img-box row">
+                    <img src="poulsbo-location-img.png" class="location-img">
+                    <div class="map-box" width="300">
+                        <div id="map1"></div>
+                    </div>
+                </div>
             </div>
-            <div class="location-card column">
-
-                <img src="bremerton-location.png" class="location-img">
-                <h3 class="location-h3">Klean Freak West Hills</h3>
-                <p class="locations-p2">Coming Soon</p>
+            <div class="location-card row">
+                <div class="locations-text-box column">
+                    <h3 class="location-h3">Klean Freak Poulsbo</h3>
+                    <p class="locations-p1">21205 Olhava Way NW</p>
+                    <p class="locations-p1">Poulsbo 98370</p>
+                    <p class="locations-p2">open everyday 8am-8-pm</p>
+                </div>
+                <div class="locations-img-box row">
+                    <img src="poulsbo-location-img.png" class="location-img">
+                    <div class="map-box" width="300">
+                        <div id="map2"></div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
     </div>
     <!--Footer Section-->
