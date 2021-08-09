@@ -27,7 +27,6 @@
   margin-top: 2em;
   max-width: 300px;
   max-height: 300px;
-  border-radius: 10px;
 }
 
 .location-card {
@@ -108,6 +107,12 @@
     text-transform: uppercase;
   }
 
+  .locations-text-box {
+    width: 275px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
   .locations-card-box {
     flex-direction: column;
   }
@@ -118,6 +123,7 @@
   }
 
   .location-card {
+    flex-direction: column-reverse !important;
     width: 300px;
     margin-bottom: 50px;
     margin-left: 0;
@@ -125,6 +131,28 @@
   }
 
   .location-img {
+    display: none;
     max-width: 260px;
+  }
+
+  .location-h3 {
+    font-size: 22px;
+  }
+  .map-box {
+    width: 275px;
+    margin-right: 100px;
+  }
+
+  #map {
+    width: 220px;
+    height: 220px;
+  }
+  #map1 {
+    width: 220px;
+    height: 220px;
+  }
+  #map2 {
+    width: 220px;
+    height: 220px;
   }
 }
