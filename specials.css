@@ -73,6 +73,16 @@
   color: var(--color-3);
 }
 
+.announcment-p {
+  font-size: 30px;
+}
+
+.announcment-p2 {
+  font-weight: bold;
+  color: var(--color-3);
+  text-transform: uppercase;
+}
+
 @media only screen and (min-width: 601px) and (max-width: 770px) {
   .specials-text-box-1 {
     margin-bottom: 50px;
