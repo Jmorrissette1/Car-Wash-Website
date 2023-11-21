@@ -58,9 +58,13 @@ ul {
   list-style-type: none;
 }
 
+.manage-membership-box{
+  margin-left: 20px;
+
+}
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: var(--primary-color);
 }
@@ -75,6 +79,10 @@ ul {
   margin-left: 25px;
 }
 
+.hours-box{
+ display: flex;
+ justify-content: space-evenly;
+}
 .header-logo {
   margin-left: 200px;
 }
@@ -240,6 +248,7 @@ ul {
 
   .hours-box {
     margin-right: 100px;
+  
   }
   .hero {
     height: 520px;
